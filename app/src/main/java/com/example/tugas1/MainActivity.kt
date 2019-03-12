@@ -26,14 +26,14 @@ class MainActivity : AppCompatActivity() {
         val randomcowok = Random().nextInt(6) + 1
         val randomcewek = Random().nextInt(6) + 1
         val drawableRecourcowok = when (randomcowok) {
-            1 -> R.drawable.ali
-            2 -> R.drawable.gg
-            else -> R.drawable.hh
+            1 -> R.drawable.ab
+            2 -> R.drawable.bc
+            else -> R.drawable.edi
         }
         val drawableRecourcewek = when (randomcewek) {
-            1 -> R.drawable.citra
-            2 -> R.drawable.bb
-            else -> R.drawable.cc
+            1 -> R.drawable.ayu
+            2 -> R.drawable.rum
+            else -> R.drawable.fuji
         }
 
         dice_image1.setImageResource(drawableRecourcowok)
